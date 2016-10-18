@@ -276,6 +276,7 @@ return torque;
 
 void Quadcopter::calculateOmegaXMatrix(double dt)
 {
+    omegaDot = GMlib::Vector<double,3> ();
     omega  += omegaDot * dt;
     GMlib::Vector<double,3> iOmega = inertiaMatrix * omega;
     GMlib::Vector<double,3> crossProduct = omega^iOmega;

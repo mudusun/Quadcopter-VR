@@ -11,6 +11,7 @@ class Propeller : public GMlib::SceneObject
     GM_SCENEOBJECT(Propeller)
 public:
     Propeller(int direction);
+    Propeller();
 
     ~Propeller();
 
