@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="Quadcopter" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\Qt\;CMake Files\..\..\..\..\Qt\5.7\;CMake Files\..\..\..\..\Qt\5.7\mingw53_32\;CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\;CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\;CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Core\;CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Quick\;CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Qml\;CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Network\;CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Gui\;CMake Files\application\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="C:/Users/hxu001/Documents/gmlib_qmldemo.git/Release" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/hxu001/Documents/gmlib_qmldemo.git/Release/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/hxu001/Documents/gmlib_qmldemo.git/Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/hxu001/Documents/gmlib_qmldemo.git/Release/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/hxu001/Documents/gmlib_qmldemo.git/Release/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Quadcopter">
+         <Option output="C:/Users/hxu001/Documents/gmlib_qmldemo.git/Release/bin/Quadcopter.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/Users/hxu001/Documents/gmlib_qmldemo.git/Release/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_QUICK_LIB" />
+            <Add option="-DQT_QML_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add directory="C:/Qt/5.7/mingw53_32/./mkspecs/win32-g++" />
+            <Add directory="C:/Qt/5.7/mingw53_32/include" />
+            <Add directory="C:/Qt/5.7/mingw53_32/include/QtCore" />
+            <Add directory="C:/Qt/5.7/mingw53_32/include/QtGui" />
+            <Add directory="C:/Qt/5.7/mingw53_32/include/QtNetwork" />
+            <Add directory="C:/Qt/5.7/mingw53_32/include/QtQml" />
+            <Add directory="C:/Qt/5.7/mingw53_32/include/QtQuick" />
+            <Add directory="C:/Qt/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/include" />
+            <Add directory="C:/Qt/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include" />
+            <Add directory="C:/Qt/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include-fixed" />
+            <Add directory="C:/Qt/Tools/mingw530_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
+            <Add directory="C:/Qt/Tools/mingw530_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/Qt/Tools/mingw530_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/hxu001/Documents/gmlib_qmldemo.git/Release/Makefile&quot;  VERBOSE=1 Quadcopter" />
+            <CompileFile command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/hxu001/Documents/gmlib_qmldemo.git/Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/hxu001/Documents/gmlib_qmldemo.git/Release/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/hxu001/Documents/gmlib_qmldemo.git/Release/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Quadcopter/fast">
+         <Option output="C:/Users/hxu001/Documents/gmlib_qmldemo.git/Release/bin/Quadcopter.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/Users/hxu001/Documents/gmlib_qmldemo.git/Release/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_QUICK_LIB" />
+            <Add option="-DQT_QML_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add directory="C:/Qt/5.7/mingw53_32/./mkspecs/win32-g++" />
+            <Add directory="C:/Qt/5.7/mingw53_32/include" />
+            <Add directory="C:/Qt/5.7/mingw53_32/include/QtCore" />
+            <Add directory="C:/Qt/5.7/mingw53_32/include/QtGui" />
+            <Add directory="C:/Qt/5.7/mingw53_32/include/QtNetwork" />
+            <Add directory="C:/Qt/5.7/mingw53_32/include/QtQml" />
+            <Add directory="C:/Qt/5.7/mingw53_32/include/QtQuick" />
+            <Add directory="C:/Qt/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/include" />
+            <Add directory="C:/Qt/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include" />
+            <Add directory="C:/Qt/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include-fixed" />
+            <Add directory="C:/Qt/Tools/mingw530_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
+            <Add directory="C:/Qt/Tools/mingw530_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/Qt/Tools/mingw530_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/hxu001/Documents/gmlib_qmldemo.git/Release/Makefile&quot;  VERBOSE=1 Quadcopter/fast" />
+            <CompileFile command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/hxu001/Documents/gmlib_qmldemo.git/Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/hxu001/Documents/gmlib_qmldemo.git/Release/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/hxu001/Documents/gmlib_qmldemo.git/Release/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="C:/Users/hxu001/Documents/gmlib_qmldemo.git/Release" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/hxu001/Documents/gmlib_qmldemo.git/Release/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/hxu001/Documents/gmlib_qmldemo.git/Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/hxu001/Documents/gmlib_qmldemo.git/Release/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/hxu001/Documents/gmlib_qmldemo.git/Release/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="C:/Users/hxu001/Documents/gmlib_qmldemo.git/Release" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/hxu001/Documents/gmlib_qmldemo.git/Release/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/hxu001/Documents/gmlib_qmldemo.git/Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/hxu001/Documents/gmlib_qmldemo.git/Release/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/hxu001/Documents/gmlib_qmldemo.git/Release/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/application/application.qrc">
+         <Option target="Quadcopter"/>
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/application/fboinsgrenderer.cpp">
+         <Option target="Quadcopter"/>
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/application/fboinsgrenderer.h">
+         <Option target="Quadcopter"/>
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/application/gmlibwrapper.cpp">
+         <Option target="Quadcopter"/>
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/application/gmlibwrapper.h">
+         <Option target="Quadcopter"/>
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/application/guiapplication.cpp">
+         <Option target="Quadcopter"/>
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/application/guiapplication.h">
+         <Option target="Quadcopter"/>
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/application/main.cpp">
+         <Option target="Quadcopter"/>
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/application/utils.h">
+         <Option target="Quadcopter"/>
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/application/window.cpp">
+         <Option target="Quadcopter"/>
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/application/window.h">
+         <Option target="Quadcopter"/>
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/hidmanager/defaulthidmanager.cpp">
+         <Option target="Quadcopter"/>
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/hidmanager/defaulthidmanager.h">
+         <Option target="Quadcopter"/>
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/hidmanager/hidaction.cpp">
+         <Option target="Quadcopter"/>
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/hidmanager/hidaction.h">
+         <Option target="Quadcopter"/>
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/hidmanager/hidbinding.cpp">
+         <Option target="Quadcopter"/>
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/hidmanager/hidbinding.h">
+         <Option target="Quadcopter"/>
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/hidmanager/hidinput.cpp">
+         <Option target="Quadcopter"/>
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/hidmanager/hidinput.h">
+         <Option target="Quadcopter"/>
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/hidmanager/hidinputevent.cpp">
+         <Option target="Quadcopter"/>
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/hidmanager/hidinputevent.h">
+         <Option target="Quadcopter"/>
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/hidmanager/hidkbmouseinput.cpp">
+         <Option target="Quadcopter"/>
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/hidmanager/hidkbmouseinput.h">
+         <Option target="Quadcopter"/>
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/hidmanager/hidmanager.cpp">
+         <Option target="Quadcopter"/>
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/hidmanager/hidmanager.h">
+         <Option target="Quadcopter"/>
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/hidmanager/hidmanagertreemodel.cpp">
+         <Option target="Quadcopter"/>
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/hidmanager/hidmanagertreemodel.h">
+         <Option target="Quadcopter"/>
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/hidmanager/standardhidmanager.cpp">
+         <Option target="Quadcopter"/>
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/hidmanager/standardhidmanager.h">
+         <Option target="Quadcopter"/>
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/scenario.cpp">
+         <Option target="Quadcopter"/>
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/scenario.h">
+         <Option target="Quadcopter"/>
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/testtorus.h">
+         <Option target="Quadcopter"/>
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Quick/Qt5QuickConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Quick\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Quick/Qt5QuickConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Quick\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Quick/Qt5Quick_ContextPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Quick\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Qml\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Qml/Qt5QmlConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Qml\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Qml/Qt5QmlConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Qml\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Qml/Qt5Qml_QLocalClientConnectionFactory.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Qml\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebuggerServiceFactory.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Qml\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebugServerFactory.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Qml\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Qml/Qt5Qml_QQmlInspectorServiceFactory.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Qml\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugConnectorFactory.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Qml\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Qml/Qt5Qml_QQmlProfilerServiceFactory.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Qml\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Qml/Qt5Qml_QQuickProfilerAdapterFactory.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Qml\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Qml/Qt5Qml_QTcpServerConnectionFactory.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Qml\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Network\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Network\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Network\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Network/Qt5Network_QNativeWifiEnginePlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Network\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QDDSPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/../../../../Qt/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt\5.7\mingw53_32\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="C:/Users/hxu001/Documents/gmlib_qmldemo.git/application/application.qrc">
+          <Option virtualFolder="CMake Files\application\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

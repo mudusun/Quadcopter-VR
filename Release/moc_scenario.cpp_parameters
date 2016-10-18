@@ -1,0 +1,5 @@
+-DGLEW_STATIC
+-DWIN32
+-o
+C:/Users/hxu001/Documents/gmlib_qmldemo.git/Release/moc_scenario.cpp
+C:/Users/hxu001/Documents/gmlib_qmldemo.git/scenario.h

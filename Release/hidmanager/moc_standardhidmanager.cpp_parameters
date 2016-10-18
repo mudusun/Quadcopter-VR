@@ -1,0 +1,5 @@
+-DGLEW_STATIC
+-DWIN32
+-o
+C:/Users/hxu001/Documents/gmlib_qmldemo.git/Release/hidmanager/moc_standardhidmanager.cpp
+C:/Users/hxu001/Documents/gmlib_qmldemo.git/hidmanager/standardhidmanager.h

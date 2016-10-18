@@ -1,0 +1,5 @@
+-DGLEW_STATIC
+-DWIN32
+-o
+C:/Users/hxu001/Documents/gmlib_qmldemo.git/Release/application/moc_fboinsgrenderer.cpp
+C:/Users/hxu001/Documents/gmlib_qmldemo.git/application/fboinsgrenderer.h

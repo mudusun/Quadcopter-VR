@@ -1,0 +1,5 @@
+-DGLEW_STATIC
+-DWIN32
+-o
+C:/Users/hxu001/Documents/gmlib_qmldemo.git/Release/hidmanager/moc_hidaction.cpp
+C:/Users/hxu001/Documents/gmlib_qmldemo.git/hidmanager/hidaction.h
